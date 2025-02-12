@@ -246,7 +246,13 @@ nav ul li a:hover {
   background-color: var(--button-hover);
 }
 
-
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: var(--primary-blue);
+  color: var(--off-white);
+  font-size: 0.9rem;
+}
 
 
 
