@@ -27,6 +27,31 @@
 
 
 
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font-primary);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-beige);
+  color: var(--primary-blue);
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
 body {
   background-color: var(--primary-beige);
   font-family: var(--font-primary);
