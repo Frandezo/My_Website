@@ -207,7 +207,44 @@ nav ul li a:hover {
 }
 
 
+.contact {
+  background-color: var(--primary-blue);
+  padding: 40px;
+  text-align: center;
+  color: var(--off-white);
+  border-radius: 10px;
+}
 
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.contact input, 
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid var(--form-border);
+  border-radius: 5px;
+  background-color: var(--form-bg);
+}
+
+.contact button {
+  background-color: var(--primary-red);
+  color: var(--button-text);
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact button:hover {
+  background-color: var(--button-hover);
+}
 
 
 
