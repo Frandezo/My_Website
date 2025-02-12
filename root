@@ -24,3 +24,21 @@
   --shadow-light: 0px 4px 6px rgba(0, 0, 0, 0.1);
   --shadow-heavy: 0px 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+
+
+body {
+  background-color: var(--primary-beige);
+  font-family: var(--font-primary);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  box-shadow: var(--shadow-light);
+}
+
+button:hover {
+  background-color: var(--button-hover);
+  box-shadow: var(--shadow-heavy);
+}
