@@ -1,0 +1,26 @@
+:root {
+  /* Primary Colors */
+  --primary-blue: #0D1B2A;  /* Deep Navy Blue */
+  --primary-red: #A4161A;   /* Crimson Red */
+  --primary-beige: #F5E6CA; /* Warm Beige */
+
+  /* Accent Colors */
+  --accent-blue: #5DA9E9;   /* Electric Blue */
+  --accent-yellow: #FFC107; /* Golden Yellow */
+  --off-white: #EAE0D5;     /* Soft Off-White */
+
+  /* Typography */
+  --font-primary: 'Poppins', sans-serif;  /* Modern, clean font */
+  --font-secondary: 'Merriweather', serif; /* For mission statement or artistic elements */
+
+  /* Button & Form Styling */
+  --button-bg: var(--primary-red);
+  --button-hover: #8C1316; /* Darker Red for Hover */
+  --button-text: #ffffff;
+  --form-bg: var(--off-white);
+  --form-border: var(--primary-blue);
+  
+  /* Box Shadows & Effects */
+  --shadow-light: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-heavy: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
